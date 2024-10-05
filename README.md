@@ -1,6 +1,6 @@
 # HSQLDB_And_Firebird
 
-A download link that contains two videos: **https://www.mediafire.com/file/asv9w2csykwtlc3/HSQLDB+and+Firebird.zip/file**
-
 In my recent project using Eclipse with HSQLDB and Firebird seperate i created a user management system with a database table. I granted the select privilege on the table to each user along with the grant option allowing them to share the privilege with others. This setup enabled users to pass on their select privileges to one another.
 To test the cascading effect of privileges i executed revoke commands with the cascade option. This allowed me to verify that when one user lost their select privilege all downstream users also lost access. Additionally i experimented with the restrict command to see how it would prevent revoking privileges from users who had passed them on to others. This further highlighted the differences in privilege management behavior. Furthermore i tested the deny command to specifically block certain users from accessing the table regardless of the privileges granted to them by others. This comprehensive testing reinforced my understanding of privilege management dynamics within a database environment. Overall the project successfully demonstrated multiple dimensions of privilege management showcasing the complexities and importance of properly designing user access controls in a database system.
+
+Here are the two videos with a downloading link showcasing the project: **https://www.mediafire.com/file/asv9w2csykwtlc3/HSQLDB+and+Firebird.zip/file**
